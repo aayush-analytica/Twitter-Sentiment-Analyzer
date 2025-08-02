@@ -5,17 +5,25 @@ This project performs **sentiment analysis** on a large dataset of Twitter messa
 
 ---
 
-## Dataset
-- The dataset consists of **1.6 million pre-labeled Twitter messages**.
-- Each tweet contains:
-  - Sentiment label (0 = negative, 1 = positive)
-  - Tweet ID
-  - Timestamp
-  - Query (mostly `NO_QUERY`)
-  - Twitter username
-  - Full tweet text
-- Source: [Original Twitter Sentiment dataset, 2009]
+## 📊 Dataset
 
+The dataset consists of **1.6 million pre-labeled Twitter messages** intended for sentiment analysis.
+
+### 📌 Features per Tweet
+
+- **Sentiment Label**:  
+  - `0` = Negative sentiment  
+  - `1` = Positive sentiment  
+- **Tweet ID**: Unique identifier for the tweet  
+- **Timestamp**: Date and time when the tweet was posted  
+- **Query**: The search term used (mostly `"NO_QUERY"`)  
+- **Username**: Twitter handle of the user who posted the tweet  
+- **Text**: Full tweet content
+
+### 📁 Source
+
+- [Sentiment140 Twitter Dataset on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+- Originally compiled in 2009
 ---
 
 ## Key Objectives
